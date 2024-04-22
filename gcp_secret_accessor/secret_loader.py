@@ -4,7 +4,7 @@ import json
 class SecretLoader:
     def __init__(self, project_id):
         self.project_id = project_id
-        if project_id is None or secret_id is None or version_id is None:
+        if project_id is None:
             print("Some dependencies are missing.")
         else:
             print("You can go ahead and call the load_creds function.")

@@ -9,7 +9,7 @@ with open('requirements.txt', 'r', encoding="utf-8") as fp:
 
 setuptools.setup(
     name='gcp-secret-accessor',
-    version='0.0.4',
+    version='0.0.5',
     author='Nirvan Sharma',
     author_email='nirvan.sharma@myguardiangroup.com',
     description='Public GCP Secret Accessor',
